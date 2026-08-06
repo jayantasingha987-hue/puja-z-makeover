@@ -112,3 +112,11 @@ Please contact the client to confirm the booking.`;
 
     }
 );
+// ================= MOBILE MENU =================
+
+const menuToggle = document.getElementById("menuToggle");
+const mainNav = document.getElementById("mainNav");
+
+menuToggle.addEventListener("click", function () {
+    mainNav.classList.toggle("active");
+});
